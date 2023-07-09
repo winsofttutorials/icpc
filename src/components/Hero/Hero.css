@@ -17,6 +17,7 @@
 .hr-col2{
     flex: 1;
     align-self: flex-end;
+    overflow: hidden;
 
 }
 @media (max-width:375px) {
