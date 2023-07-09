@@ -1,0 +1,26 @@
+.hr-container{
+    min-height: 100vh;
+}
+
+.hr-row{
+    flex-wrap: wrap;
+}
+
+.hr-col1{
+    flex: 2;
+}
+
+.hr-col1{
+    flex: 1;
+
+}
+@media (max-width:375px) {
+    .hr-row{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .hr-col1{
+        flex: 1;
+    }
+}

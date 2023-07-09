@@ -1,8 +1,15 @@
 .h-container{
     background-color: var(--White);
-    
+      
 }
 
+nav{
+    position:sticky;
+        top: 0;
+        width: 100%;
+        left: 0;
+        z-index: 99;  
+}
 
 .logo{
     width: 350px;
@@ -73,6 +80,7 @@ display: none;
     max-height: 250px;
     background: linear-gradient(#1b2330, #1b2330) ;
     transition: all 300ms ease-in-out;
+    z-index: 999;
 }
 
 #navLinks ul li:hover .submenu ul{
@@ -99,7 +107,9 @@ display: none;
 @media (max-width:375px){
 
     nav{
- border-bottom: 1px solid hsl(0, 0%, 80%);}
+        border-bottom: 1px solid hsl(0, 0%, 80%);
+        
+    }
     .logo{
         width: 200px;
     }
@@ -125,6 +135,8 @@ display: none;
         align-items: center;
         text-align: center;
         transition: all 300ms ease-in;
+        z-index: 999;
+
     }
 
     #navLinks.active{
@@ -176,6 +188,7 @@ display: none;
     position: unset;
     max-height: 100%;
     background: transparent;
+    
     }
 
     #navLinks ul li:hover .submenu ul{

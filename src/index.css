@@ -36,6 +36,13 @@
   font-size: 19px;
 }
 
+.titleText{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ba3209;
+  font-weight: 700;
+}
+
 .paddings{
   padding: 1.5rem;
 }

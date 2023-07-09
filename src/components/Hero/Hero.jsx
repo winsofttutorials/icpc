@@ -1,8 +1,21 @@
 import React from 'react'
+import HeroInfo from '../HeroInfo/HeroInfo'
+import Infographics from '../Infographics/Infographics'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className='hr-wrapper'>
+      <div className='paddings innerWidth hr-container'>
+        <div className='flexItem hr-row'>
+          <div className='hr-col1'>
+            <HeroInfo />
+          </div>
+          <div className='hr-col2'>
+            <Infographics />
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
