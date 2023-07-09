@@ -1,4 +1,5 @@
 import React from 'react'
+import './Hero.css'
 import HeroInfo from '../HeroInfo/HeroInfo'
 import Infographics from '../Infographics/Infographics'
 

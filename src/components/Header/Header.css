@@ -4,11 +4,12 @@
 }
 
 nav{
-    position:sticky;
-        top: 0;
-        width: 100%;
-        left: 0;
-        z-index: 99;  
+    position:fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 99; 
+    /* background-color: rebeccapurple;  */
 }
 
 .logo{
@@ -29,7 +30,6 @@ nav{
     text-align: right;
     list-style: none;
     position: relative;
-    /* background-color: rebeccapurple; */
 }
 
 #navLinks ul li{

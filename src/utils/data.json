@@ -1,0 +1,41 @@
+[
+    {
+        "image": "./image/ICPC-HQ-FASAD.jpg",
+        "title": "ICPC HQ"
+    },
+    {
+        "image": "./image/info-1.jpeg",
+        "title": "MDA's Performance Index"
+    },
+    {
+        "image": "./image/info-2.jpeg",
+        "title": "MDA's On Compliance Level"
+    },
+    {
+        "image": "./image/info-3.jpeg",
+        "title": "MDA's Ranking"
+    },
+    {
+        "image": "./image/info-4.jpeg",
+        "title": "MDA's Responsiveness"
+    },
+    {
+        "image": "./image/info-5.jpeg",
+        "title": "Public Service Integrity Award"
+    },
+    {
+        "image": "./image/info-6.jpg",
+        "title": "Project Distribution Percentage"
+    },
+    {
+        "image": "./image/info-7.jpg",
+        "title": "Sectors With higher percentage"
+    },
+    {
+        "image": "./image/info-8.jpeg",
+        "title": "Chairman, Management Team and IACA Executive Secretary"
+    },
+    {
+        "defaultImage": "./image/ICPC-HQ-FASAD.jpg"
+    }
+]
