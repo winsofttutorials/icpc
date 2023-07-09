@@ -1,0 +1,91 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --bg-About: #f5fcff;
+  --bg-frame1: #00b07512;
+  --bg-frame2: #7d002a1a;
+  --bg-infographics: #30304a;
+  --bg-buttonHover: #00ce1b;
+  --White: hsl(255, 100%, 100%);
+}
+
+.button{
+  background-color: #bb4a28;
+  color: var(--White);
+  font-size: 14px;
+  padding: 9px 25px;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
+
+.primaryText{
+   color: hsla(0, 0%, 100%, 0.87);
+  font-size: 14px;
+}
+
+.secondaryText{
+   color: var(--bg-infographics);
+  font-size: 19px;
+}
+
+.paddings{
+  padding: 1.5rem;
+}
+
+.flexItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexColCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexCol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColStart{
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.flexColEnd{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexStart{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.innerWidth {
+ width: 100%;
+}
+
+
+@media (max-width: 1536px){
+  .innerWidth{
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
