@@ -3,8 +3,7 @@
     
 }
 
-nav{
- border-bottom: 1px solid hsl(0, 0%, 80%);}
+
 .logo{
     width: 350px;
 }
@@ -22,6 +21,7 @@ nav{
     flex:1;
     text-align: right;
     list-style: none;
+    position: relative;
     /* background-color: rebeccapurple; */
 }
 
@@ -32,7 +32,7 @@ nav{
 
 #navLinks ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
     color: var(--bg-infographics);
@@ -41,7 +41,7 @@ nav{
 }
 
 #navLinks ul li a img{
-    width: 14px;
+   width: 10px;
     margin-left: 6px;
     transform: rotate(-180deg);
 }
@@ -54,8 +54,52 @@ nav{
 display: none;
 }
 
+/* ----------------SUBMENU-------------------*/
+
+.submenu{
+    display: none;
+}
+
+.submenu>div{
+    flex: 1;
+}
+
+#navLinks ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin: 20px auto;
+    left: 50px;
+    max-width: 700px;
+    max-height: 250px;
+    background: linear-gradient(#1b2330, #1b2330) ;
+    transition: all 300ms ease-in-out;
+}
+
+#navLinks ul li:hover .submenu ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100%;
+    text-align: left;
+    transition: all 300ms ease-in-out;
+}
+
+#navLinks ul li:hover .submenu ul li{
+    margin: 10px;
+}
+
+#navLinks ul li:hover .submenu ul li a{
+    color: var(--White);
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
 
 @media (max-width:375px){
+
+    nav{
+ border-bottom: 1px solid hsl(0, 0%, 80%);}
     .logo{
         width: 200px;
     }
@@ -110,11 +154,41 @@ display: none;
         font-size: 14px;
     }
 
+     #navLinks ul li a img{
+        transform: rotate(0);
+        
+    }
+
     #navLinks .button{
         width:200px;
         padding: 14px 25px;
         font-size: 18px;
         margin-top: 50px;
     }
+
+
+    /* -------submenu-------------- */
+    .submenu{
+    display: none;
+    }
+
+    #navLinks ul li:hover .submenu {
+    position: unset;
+    max-height: 100%;
+    background: transparent;
+    }
+
+    #navLinks ul li:hover .submenu ul{
+    flex-direction: column;
+    padding: 0;
+    overflow-y: auto;
+    }
+
+    #navLinks ul li:hover .submenu ul li{
+    border-bottom: 0;
+    flex-direction: column;
+    padding: 0;
+    }
+
 
 }
