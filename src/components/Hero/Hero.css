@@ -7,14 +7,16 @@
     flex-wrap: wrap;
      margin-top: 100px;
      display: flex;
+     justify-content: space-between;
 }
 
 .hr-col1{
     flex: 2;
 }
 
-.hr-col1{
+.hr-col2{
     flex: 1;
+    align-self: flex-end;
 
 }
 @media (max-width:375px) {

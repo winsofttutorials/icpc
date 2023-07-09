@@ -6,7 +6,7 @@ import Hero from '../Hero/Hero'
 const Header = () => {
   return (
     <section className='h-wrapper'>
-        <div className='h-container'>
+        <div className='innerWidth h-container'>
            <NavBar />
            <Hero />
         </div>

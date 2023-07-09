@@ -13,8 +13,8 @@ class NavBar extends Component {
     }
     render(){
   return (
-    <section className='innerWidth NavBar'>
-        <nav className='flexItem paddings'>
+    <section className='NavBar'>
+        <nav className='innerWidth flexItem paddings'>
              <img src={logo} alt='logo' className='logo' />
              <div id='navLinks' className={this.state.click ? "#navLinks active" : "#navLinks"}>
                 <ul>

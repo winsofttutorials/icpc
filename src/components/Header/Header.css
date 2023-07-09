@@ -1,15 +1,15 @@
 .h-container{
     background-color: var(--White);
-      
+
 }
 
 nav{
     position:fixed;
     top: 0;
-    width: 100%;
-    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
     z-index: 99; 
-    /* background-color: rebeccapurple;  */
+    background-color: var(--White); 
 }
 
 .logo{
