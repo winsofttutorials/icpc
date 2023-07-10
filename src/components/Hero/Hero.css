@@ -8,6 +8,7 @@
      margin-top: 100px;
      display: flex;
      justify-content: space-between;
+     align-items: flex-start;
 }
 
 .hr-col1{
@@ -16,16 +17,16 @@
 
 .hr-col2{
     flex: 1;
-    align-self: flex-end;
+  
     overflow: hidden;
-
 }
 @media (max-width:375px) {
     .hr-row{
         flex-direction: column;
+        overflow: hidden;
     }
 
-    .hr-col1{
+    .hr-col1,.hr-col2{
         flex: 1;
     }
 }

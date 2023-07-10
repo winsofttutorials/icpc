@@ -1,86 +1,23 @@
-// [
-//     {
-//     General:{
-//         "Guidelines for Private Sector Response to IFFs (369 downloads)"
-//         "ACTU Standing Orders (10869 downloads)"
-//         "Common African Position on Asset Recovery (CAPAR) (9018 downloads)"
-//         "ICPC Strategic Action Plan 2019 - 2023 (6809 downloads)"
-//         "ICPC Ethics and Integrity Compliance Scorecard for MDAs 2022 (9556 downloads)"
-//     "View All"
-//     },
-//     Cases:{
-//     "View All"
-//     },
-// Constituency Projects:{
-// "Constituency and Executive Projects Tracking Exercise Report (Phase IV) (10216 downloads)"
-// "2022 Zonal Intervention Projects (Constituency Projects) (7885 downloads)"
-// "Infographics (2021 Zonal Intervention Projects) (7733 downloads)"
-// "Infographics: 2020 Zonal Intervention Projects (Constituency Projects) (7901 downloads)"
-// "2021 Zonal Intervention Projects (Constituency Projects) (13732 downloads)"
-// "View All"},
-// Reports:{
-// "ICPC Achievements 2019 - 2022 (1931 downloads)"
-// "ICPC 2022 Annual Performance Report (2035 downloads)"
-// "Infographics: Ethics and Integrity Compliance Scorecard 2022 (3763 downloads)"
-// "Ranking of MDAs in the Ethics and Integrity Compliance Scorecard 2022 (6049 downloads)"
-// "Ethics and Integrity Compliance Scorecard 2022 (4871 downloads)"
-// "View All"
-// }
-// Internal Policies:{
-// "ICPC Strategic Action Plan 2019 - 2023 (6359 downloads)"
-// "Case Management Policy (6525 downloads)"
-// "ICPC Sexual Harassment Policy (6831 downloads"
-// "Communication Policy (7151 downloads)"
-// "Policy on Request for Projects Monitoring by MDAs (11552 downloads)"
-// "View All"},
-// Publications:{
-// "Islam Forbids Corruption (1370 downloads)"
-// "ICPC Annual Report 2021 (1938 downloads)"
-// "ACTU Standing Orders (10869 downloads)"
-// "Proceedings of the Second National Summit on Diminishing Corruption in the Public Sector (September 2020) (7120 downloads)"
-// "Proceedings of the International Conference on Illicit Financial Flows and Asset Recovery (May 2021) (6497 downloads)"
-// "View" },
-// Newsletters:{
-// "ICPC News (March 2022) (6981 downloads)"
-// "ICPC News (November 2021) (6930 downloads)"
-// "ICPC News October 2020 (6418 downloads)"
-// "ICPC Newsletter April 2019 (11825 downloads)"
-// "View All"},
-// Procurement Information:{
-// "2023 Capital Projects Debriefing (1199 downloads)"
-// "2023 Capital Projects Technical Status (1233 downloads)"
-// "Request for Quotations (May 2023) (1233 downloads)"
-// "Request for Quotations (April 2023) (1599 downloads)"
-// "Request for Quotations (February 2023) (3962 downloads)"
-// "View All"
-// },
-// Proceeds of Crime (Cash and Fixed Assets) Recovery & Management:{
-// "Debrief on Outcome of The Technical Bids Opening Exercise for First Half of Year 2023 Asset Disposal Exercise (368 downloads)"
-// "Request for Expression of Interest/Proposal for Auction of Forfeited Assets (April 2023) (1524 downloads)"
-// "Schedule of Forfeited Assets for Disposal & Dates of Auction (Cars) (5789 downloads)"
-// "Schedule of Forfeited Assets for Disposal & Dates of Auction (Land & Buildings) (6923 downloads)"
-// "Financial Bids Evaluation Report for Engagement of Auctioneers(s) for the Disposal of Movable and Immovable Assets (10644 downloads)"
-// "View All"},
-// Paper Presentations:{
-// "Keynote Address by Head of Civil Service of the Federation, Mrs. Folashade Esan, at Policy Dialogue on Entrenching Transparency in Public Service Recruitment in Nigeria (11110 downloads)"
-// "Welcome Address by ICPC Chairman, Prof. Bolaji Owasanoye, SAN; at the Policy Dialogue on Entrenching Transparency in Public Service Recruitment in Nigeria (11491 downloads)"
-// "Remarks by the Provost, ACAN at Policy Dialogue on Entrenching Transparency in Public Service Recruitment in Nigeria (11762 downloads)"
-// "Speech by His Excellency, Muhammadu Buhari, President of the Federal Republic of Nigeria, at the 3rd National Summit on Diminishing Corruption in the Public Sector (11080 downloads)"
-// "Keynote Address by Dr. (Mrs.) Zainab Shamsuna Ahmed, Minister of Finance, Budget and National Planning at the 3rd National Summit on Diminishing Corruption in the Public Sector (43268 downloads)"
-// "View All"},
-// Capacity Development:{
-// "Proceedings of ICPC Engagement with Civil Society Organisations on Sexual Harassment in Tertiary Institutions and Secondary Schools (815 downloads)"
-// "Proceeding of Webinar on Understanding Illicit Financial Flows (IFFs) (780 downloads)"
-// "Proceedings of Capacity Building on Illicit Financial Flows (IFFs) (797 downloads)"
-// "Trainings Conducted by Operations Department in 2022 (1228 downloads)"
-// "Trainings Conducted by Operations Department in 2021 (1279 downloads)"
-// "View All"},
-// Budget:{
-// "ICPC 2023 Budget (6128 downloads)"
-// "ICPC 2021 Audited Account (3888 downloads)"
-// "Budget Implementation 2016 - 2022 (16165 downloads)"
-// "ICPC 2022 Budget (6549 downloads)"
-// "ICPC 2021 Budget (11316 downloads)"
-// "View All"}
-// }
-// ]
+[
+    {
+        "General": {
+            "News": [
+                {
+                    "title": "Guidelines for Private Sector Response to IFFs (369 downloads)"
+                },
+                {
+                    "file1": "ACTU Standing Orders (10869 downloads)"
+                },
+                {
+                    "file2": "Common African Position on Asset Recovery (CAPAR) (9018 downloads)"
+                },
+                {
+                    "file3": "ICPC Strategic Action Plan 2019 - 2023 (6809 downloads)"
+                },
+                {
+                    "file4": "ICPC Ethics and Integrity Compliance Scorecard for MDAs 2022 (9556 downloads)"
+                }
+            ]
+        }
+    }
+]
